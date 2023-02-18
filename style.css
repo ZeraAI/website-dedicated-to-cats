@@ -1,0 +1,145 @@
+  @font-face {
+    font-family: 'Meows';
+    src: url('./font/Meows.ttf') format('truetype');
+  }
+
+  h2 {
+    font-family: "Meows", sans-serif;
+    font-size: 65px;
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    src: url('./font/Lato.ttf') format('truetype');
+  }
+
+  p {
+    font-family: "Lato", arial, sans-serif;
+    font-size: 23px;
+  }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  @font-face {
+    font-family: 'AztechForest';
+    src: url('./font/AztechForest.otf') format('truetype');
+  }
+
+  header {
+    background-color: #ffb6c1;
+    padding: 20px;
+    text-align: center;
+    font-family: 'AztechForest', sans-serif;
+    color: paleturquoise;
+    text-shadow: 3px 2px gray;
+    font-size: 30px;
+  } 
+  
+  nav {
+    background-color: #ffc0cb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  @font-face {
+    font-family: 'LucyTheCat';
+    src: url('./font/LucyTheCat.otf') format('truetype');
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+    font-family: 'LucyTheCat', sans-serif;
+    text-shadow: 1px 1px black;
+    font-size: 30px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    position: relative;
+    text-shadow: 1px 1px #ffc0cb;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+  }
+  
+  nav li:first-child a {
+    border-left: 1px solid white;
+  }
+  
+  nav li:last-child a {
+    border-right: 1px solid white;
+  }
+
+  nav span {
+    color: white;
+    font-size: 30px;
+    margin-left: 15px;
+  }
+
+  .invisible-heart {
+    visibility: hidden;
+    margin-left: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  section img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  footer {
+    background-color: #ffb6c1;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer span {
+    position: relative;
+    z-index: 1;
+    margin: 0 20px;
+  }
+  
+  footer span::before {
+    content: "\2764";
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  h2 {
+    margin-bottom: 0;
+  }
