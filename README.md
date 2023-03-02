@@ -6,4 +6,8 @@
 1. Extract everything to one folder (leave the included folders as they are)
 2. Click on index.html to test the website
 
+OR try it out for yourself here! https://fabulous-starship-d30825.netlify.app/
+
+
+
 That's it! Enjoy, and let me know what you think at parkzen68@gmail.com
